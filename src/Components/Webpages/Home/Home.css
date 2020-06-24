@@ -11,6 +11,66 @@
     margin: auto;
 }
 
+.featured{
+    width: 100%;
+    height: 450px;
+    border: 2px solid black;
+    transition: all ease-in .1s;
+    margin-bottom: 40px;
+}
+
+.featured:hover{
+    opacity: .6;
+    cursor: pointer;
+}
+
+.hero{
+    background-image: url('../../../imgs/Hero\ Article.jpeg');
+    height: 280px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: -1;
+}
+
+.featured h1{
+    margin-bottom: 1px;
+    padding: 0 10px;
+}
+
+.featured h5{
+    margin-bottom: 16px;
+    padding: 0 10px;
+}
+
+.featured p{
+    font-size: 1.5rem;
+    color: rgb(122, 122, 122);
+    padding: 0 10px;
+}
+
+.headlines{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headlines h1{
+    font-size: 20px;
+}
+
+.headlines div{
+    padding-left: 10px;
+    margin: 5px;
+    border-left: 1px solid black;
+    transition: all ease-in .1s;
+}
+
+.headlines div:hover{
+    opacity: .6;
+    cursor: pointer;
+}
+
 .articles{
     width:100%;
     display:flex;
