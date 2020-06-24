@@ -1,9 +1,13 @@
 import React from 'react';
+import NavBar from '../../NavBar/navbar';
+import '../Home/Home.css';
+import MainArticle from './HomeComponents/MainArticle';
 
-function Home () {
-    return(
+function Home() {
+    return (
         <div>
-            <hi>Home</hi>
+            <NavBar />
+            
         </div>
     )
 }
