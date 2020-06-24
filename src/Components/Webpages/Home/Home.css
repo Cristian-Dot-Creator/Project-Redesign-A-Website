@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: left;
+    font-family:Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.featured{
+    width: 100%;
+    height: 450px;
+    border: 2px solid black;
+    transition: all ease-in .1s;
+    margin-bottom: 40px;
+}
+
+.featured:hover{
+    opacity: .6;
+    cursor: pointer;
+}
+
+.hero{
+    background-image: url('../../../imgs/Hero\ Article.jpeg');
+    height: 280px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: -1;
+}
+
+.featured h1{
+    margin-bottom: 1px;
+    padding: 0 10px;
+}
+
+.featured h5{
+    margin-bottom: 16px;
+    padding: 0 10px;
+}
+
+.featured p{
+    font-size: 1.5rem;
+    color: rgb(122, 122, 122);
+    padding: 0 10px;
+}
+
+.headlines{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headlines h1{
+    font-size: 20px;
+}
+
+.headlines div{
+    padding-left: 10px;
+    margin: 5px;
+    border-left: 1px solid black;
+    transition: all ease-in .1s;
+}
+
+.headlines div:hover{
+    opacity: .6;
+    cursor: pointer;
+}
+
+.articles{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.card{
+    width:350px;
+    height:375px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    transition: all ease-in .1s;
+    margin: 50px 15px 0 15px;
+}
+
+.card > h1 {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    padding:0 10px;
+}
+
+.card > h5 {
+    margin-bottom: 20px;
+    padding:0 10px;
+    color:rgb(122, 122, 122);
+}
+
+.card > p {
+    padding: 0 10px;
+    color:rgb(122, 122, 122);
+}
+
+.card:hover{
+    opacity: .5;
+    cursor: pointer;
+}
+
+.image{
+    width:100%;
+    height:200px;
+    background-size: cover;
+}
+
+.ad-box{
+    width:100%;
+    height:150px;
+    border: 2px solid #168a5e;
+    position: relative;
+}
+
+.ad-box:hover{
+    cursor: pointer;
+}
+
+.ad-box h1{
+    font-weight: 300;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.article1{
+    background-image: url('../../../imgs/Article\ 1.jpg');
+}
