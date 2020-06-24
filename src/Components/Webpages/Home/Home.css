@@ -76,16 +76,17 @@
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .card{
-    width:375px;
+    width:350px;
     height:375px;
     display: flex;
     flex-direction: column;
     border: 2px solid black;
     transition: all ease-in .1s;
-    margin: 30px;
+    margin: 50px 15px 0 15px;
 }
 
 .card > h1 {
@@ -115,6 +116,26 @@
     width:100%;
     height:200px;
     background-size: cover;
+}
+
+.ad-box{
+    width:100%;
+    height:150px;
+    border: 2px solid #168a5e;
+    position: relative;
+}
+
+.ad-box:hover{
+    cursor: pointer;
+}
+
+.ad-box h1{
+    font-weight: 300;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .article1{
