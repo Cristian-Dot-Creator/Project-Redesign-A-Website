@@ -1,3 +1,9 @@
+h2, h3, h5 {
+  background: -webkit-linear-gradient(180deg, #00d301, #36c275 50%, #00a562);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 #NavBar ul, li, a {
   list-style: none;
   color: inherit;
