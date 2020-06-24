@@ -4,21 +4,76 @@ h2, h3, h5 {
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-  
 //TESTING END
+#menu-container {
+    display: flex;
+    justify-content: space-between;
+    min-width: 90vw;
+}
+.nav {
+	width: 30vw;
+	position: absolute;
+	top: 0;
+	z-index: 100;
+	background-color: black;
+	right: -35vw;
+	-webkit-transition: right 0.3s ease-in;
+	-o-transition: right 0.3s ease-in;
+	transition: right 0.3s ease-in;
+}
+.close {
+	display: flex;
+	justify-content: flex-end;
+	color: lime;
+}
+
+.nav.show {
+	right: 0;
+}
+
+.menu-button {
+	position: relative;
+	z-index: 99;
+}
+.menu-items {
+    border-bottom: 1px lime solid;
+}
+
+.menu-list {
+    list-style: none;
+    border-bottom: 1px white solid;
+
+}
+
+.menu-link {
+	text-decoration: none;
+    display: flex;
+    color: white;
+}
 
 //NAV START
+#NavBar {
+    min-width: 100vw;
+    max-width: 100vw;
+}
 #NavBar ul, li, a {
     list-style: none;
     color: inherit;
     text-decoration: none;
 }
-#NavBar {
+#container {
     z-index: 100;
+    overflow: hidden;
+    position: relative;
 }
+#container Link{
+    background: black;
+    display: block;
+    position: absolute;
+  }
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 #nav-crunch_container {
@@ -33,6 +88,7 @@ h2, h3, h5 {
     max-height: 40px;
 }
 #nav-routes {
+    // display: none;
     min-width: 70%;
     max-width: 70%;
 }
@@ -41,7 +97,8 @@ h2, h3, h5 {
 //CARDS START
 .card-section {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    overflow: hidden;
 }
 .article-card_container {
     min-width: 200px;

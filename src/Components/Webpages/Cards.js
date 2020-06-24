@@ -33,13 +33,13 @@ const buttons = [
         {
             "id": "2",
             "name": "TC Early Stage 2020",
-            "date": "Jul 21- - 22",
+            "date": "Jul 21 - 22",
             "type": "Politics"
         },
         {
             "id": "3",
             "name": "TC Dessions: Mobility 2020",
-            "date": "Oct 6 -7",
+            "date": "Oct 6 - 7",
             "type": "Sports"
         }
         ],
