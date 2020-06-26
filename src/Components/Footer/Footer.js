@@ -4,26 +4,20 @@ import {Link} from 'react-router-dom';
 class Footer extends Component {
     render(){
         return  <footer className="Footer">
-            <section className="footer-top">
-                <p className="element-h">Tech Crunch</p>
-            </section>
-
             <section className="footer-main">
                 <div className="footer-block__left footer-container">
                 <h3 className="element-h element-hover__underline">About</h3>
                     <ul className="footer-flex__container">
-                            <li className="element-hover__underline">X</li>
-                            <li className="element-hover__underline">Y</li>
-                            <li className="element-hover__underline">Z</li>
+                            <li className="footer-item element-hover__underline">Advertise</li>
+                            <li className="footer-item element-hover__underline">TechCrunch</li>
+                            <li className="footer-item element-hover__underline">Staff</li>
                     </ul>
                 </div>
 
                 <div className="footer-block__center footer-container">
                 <h3 className="element-h element-hover__underline">Contact Us</h3>
                     <ul className="footer-flex__container">
-                            <li className="element-hover__underline">B</li>
-                            <li className="element-hover__underline">E</li>
-                            <li className="element-hover__underline">N</li>
+                            <li className="element-hover__underline"><Link to='/contact'>Inquiry</Link></li>
                     </ul>
                 </div>
 

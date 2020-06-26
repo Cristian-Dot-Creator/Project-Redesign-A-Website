@@ -7,50 +7,66 @@ h2, h3, h5 {
 //TESTING END
 #menu-container {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     min-width: 90vw;
 }
 .nav {
-	width: 30vw;
+    width: 100vw;
+    height: 100vh;
 	position: absolute;
 	top: 0;
 	z-index: 100;
-	background-color: black;
-	right: -35vw;
+    background: linear-gradient(331deg,#00d301,#36c275 50%,#00a562);
+	right: -100vw;
 	-webkit-transition: right 0.3s ease-in;
 	-o-transition: right 0.3s ease-in;
-	transition: right 0.3s ease-in;
+    transition: right 0.3s ease-in;
 }
 .close {
 	display: flex;
-	justify-content: flex-end;
-	color: lime;
+    justify-content: flex-end;
+    padding-right: 10%;
+	color: black;
 }
-
 .nav.show {
-	right: 0;
+    right: 0;
 }
-
 .menu-button {
 	position: relative;
-	z-index: 99;
+    z-index: 99;
+    color:black;
 }
-.menu-items {
-    border-bottom: 1px lime solid;
+.fa {
+    color: black;
+    font-size: 2em;
 }
-
 .menu-list {
-    list-style: none;
-    border-bottom: 1px white solid;
-
+    padding-left: 5%;
+    list-style-type: none;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .menu-list::-webkit-scrollbar {
+    display: none;
+  }
+  
+.menu-items {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 10vh;
+    font-size: 2em;
 }
-
+#menu-item {
+    max-height: 20px;
+    max-width: 20px;
+}
 .menu-link {
 	text-decoration: none;
     display: flex;
-    color: white;
 }
-
 //NAV START
 #NavBar {
     min-width: 100vw;
@@ -70,7 +86,7 @@ h2, h3, h5 {
     background: black;
     display: block;
     position: absolute;
-  }
+}
 .container {
     display: flex;
     justify-content: space-between;
@@ -92,22 +108,26 @@ h2, h3, h5 {
     min-width: 70%;
     max-width: 70%;
 }
+#nav-tablet {
+    display: none;
+}
 //NAV END
 
 //CARDS START
 .card-section {
-    display: flex;
+    display: inline-flex;
     justify-content: flex-start;
     overflow: hidden;
 }
 .article-card_container {
-    min-width: 200px;
-    max-width: 200px;
-    min-height: 300px;
-    max-height: 800px;
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 350px;
+    max-height: 880px;
     border: solid #ececec 1px;
     padding: 10px;
     position: relative;
+    margin-right: 100px;
 }
 .card-info {
     margin-left:10px;
@@ -177,6 +197,9 @@ h2, h3, h5 {
 //CARDS END
 
 //FOOTER START
+footer {
+    bottom: 0px;
+}
 .footer-main {
     display: flex;
     justify-content: space-around;
@@ -192,4 +215,33 @@ h2, h3, h5 {
 .footer-copyright {
     text-align: center;
 }
+.footer-item {
+    padding-bottom: 10%;
+}
+.footer-flex__container {
+    list-style: none;
+    padding: 0;
+}
 //FOOTER END
+
+@media only screen and (min-width: 765px) {
+.menu-button {
+    display: none;
+}
+#menu-container {
+    justify-content: start;
+    align-items: center;
+}
+#nav-crunch_container {
+    min-width: 100vw;
+}
+#nav-tablet {
+    display: flex;
+    justify-content: space-around;
+}
+#nav-tablet ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+}

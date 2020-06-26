@@ -24,22 +24,34 @@ const buttons = [
       super();
       this.state = {
         Articles: [
-          {
-            "id": "1",
+        {
+            "name": "Extra Crunch Live with Alexa Von Tobel",
+            "date": "June 25",
+            "type": "Tech"
+        },
+        {
             "name": "Extra Crunch Live with Hans Tung and Jeff Richards of GGV Capital",
             "date": "Jun 30",
             "type": "Tech"
         },
         {
-            "id": "2",
             "name": "TC Early Stage 2020",
             "date": "Jul 21 - 22",
             "type": "Politics"
         },
         {
-            "id": "3",
-            "name": "TC Dessions: Mobility 2020",
+            "name": "Disrupt 2020",
+            "date": "Sep 14 - 18",
+            "type": "Politics"
+        },
+        {
+            "name": "TC Sessions: Mobility 2020",
             "date": "Oct 6 - 7",
+            "type": "Sports"
+        },
+        {
+            "name": "TC Sessions: Space 2020",
+            "date": "Dec 16 - 17",
             "type": "Sports"
         }
         ],
@@ -83,7 +95,7 @@ const buttons = [
 
       ));
       return (
-        <div>
+        <div id="event-cards">
     <div className="button-filter__container">
         {buttons.map(({ name, type }) => (
           <button className="button-filter__style"
@@ -95,9 +107,9 @@ const buttons = [
         </button>
       ))}
     </div>
+    <h1>Events</h1>
 
-<div className="">
-    <h1>Top Articles</h1>
+<div className="menu-list">
     <div className="card-section">{renderAll}</div>
 </div>
 </div>
