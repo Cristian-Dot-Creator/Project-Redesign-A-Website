@@ -123,7 +123,27 @@ function Contact () {
                 </div>
             </form>
             <div className="fake-ad">ADVERTISEMENT</div>
-            <h1>SUGGESTED ARTICLES</h1>
+            <h2>SUGGESTED ARTICLES</h2>
+            <div className="articles">
+                    <div className="card">
+                        <div className="image article1"></div>
+                        <h1>ARTICLE TITLE GOES HERE</h1>
+                        <h5>AUTHOR AND DATE GO HERE</h5>
+                        <p>This is a sample article description that you can pull directly from the website and paste into this p tag. This is a sample article description that you can pull directly from the website and paste into this p tag.</p>
+                    </div>
+                    <div className="card">
+                        <div className="image article1"></div>
+                        <h1>ARTICLE TITLE GOES HERE</h1>
+                        <h5>AUTHOR AND DATE GO HERE</h5>
+                        <p>This is a sample article description that you can pull directly from the website and paste into this p tag. This is a sample article description that you can pull directly from the website and paste into this p tag.</p>
+                    </div>
+                    <div className="card">
+                        <div className="image article1"></div>
+                        <h1>ARTICLE TITLE GOES HERE</h1>
+                        <h5>AUTHOR AND DATE GO HERE</h5>
+                        <p>This is a sample article description that you can pull directly from the website and paste into this p tag. This is a sample article description that you can pull directly from the website and paste into this p tag.</p>
+                    </div>
+                </div>
         </div>
     )
 }
