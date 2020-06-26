@@ -25,8 +25,8 @@
 }
 
 .hero{
-    background-image: url('../../../imgs/Hero\ Article.jpeg');
-    height: 280px;
+    background-image: url('../../../imgs/hero.jpg');
+    height: 290px;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -39,12 +39,12 @@
 }
 
 .featured h5{
-    margin-bottom: 16px;
+    margin-bottom: 10px;
     padding: 0 10px;
 }
 
 .featured p{
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: rgb(122, 122, 122);
     padding: 0 10px;
 }
@@ -90,19 +90,20 @@
 }
 
 .card > h1 {
-    font-size: 20px;
+    font-size: 17px;
     margin-top: 5px;
     margin-bottom: 1px;
     padding:0 10px;
 }
 
 .card > h5 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding:0 10px;
     color:rgb(122, 122, 122);
 }
 
 .card > p {
+    font-size: 15px;
     padding: 0 10px;
     color:rgb(122, 122, 122);
 }
@@ -139,5 +140,84 @@
 }
 
 .article1{
-    background-image: url('../../../imgs/Article\ 1.jpg');
+    background-image: url('../../../imgs/article1.jpg');
+}
+
+.article2{
+    background-image: url('../../../imgs/article2.jpg');
+}
+
+.article3{
+    background-image: url('../../../imgs/article3.png');
+}
+
+.article4{
+    background-image: url('../../../imgs/article4.jpg');
+}
+
+.article5{
+    background-image: url('../../../imgs/article5.jpg');
+}
+
+.article6{
+    background-image: url('../../../imgs/article6.jpg');
+}
+
+.article7{
+    background-image: url('../../../imgs/article7.jpg');
+}
+
+.article8{
+    background-image: url('../../../imgs/article8.jpg');
+}
+
+.article9{
+    background-image: url('../../../imgs/article9.jpg');
+}
+
+.article10{
+    background-image: url('../../../imgs/article10.jpg');
+}
+
+.article11{
+    background-image: url('../../../imgs/article11.jpg');
+}
+.article12{
+    background-image: url('../../../imgs/article12.jpg');
+}
+
+/* Media Querys */
+
+@media only screen and (max-width: 768px) {
+    .featured h1{
+        font-size: 20px;
+    }
+
+    .featured p{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .featured h1 {
+        font-size: 15px;
+    }
+
+    .featured p {
+        font-size: 12px;
+    }
+
+    .container {
+        display: inline-grid;
+    }
+
+    .headlines {
+        flex-direction: column;
+    }
+
+    .headlines div {
+        border-bottom: 2px solid black;
+        padding-bottom: 5px;
+        border-left: none;
+    }
 }
