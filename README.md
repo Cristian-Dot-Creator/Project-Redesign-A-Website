@@ -21,4 +21,4 @@ To stop running the server and the app, you can hit command + c to close both.
 * Atherton Xiong
 
 # License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
