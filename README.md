@@ -13,6 +13,9 @@ To stop running the server and the app, you can hit command + c to close both.
 # Built With
 * React.js
 * JavaScript
+* HTML
+* CSS
+* SCSS
 # Authors
 * Ben Flanders
 * Alejandro Ordaz Escamilla
