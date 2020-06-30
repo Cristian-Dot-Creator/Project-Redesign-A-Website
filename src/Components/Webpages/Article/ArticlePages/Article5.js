@@ -1,8 +1,12 @@
 import React from 'react';
+import Foot from '../../../../Components/Footer/Foot'
+import Nav from '../../../../Components/NavBar/navbar'
+
 
 function Article5() {
     return (
         <div>
+             <Nav></Nav>
             <div className="hero5"></div>
             <div className="article-container">
                 <div>
@@ -32,6 +36,7 @@ function Article5() {
                         Microsoft launched a similar bug bounty program for Xbox Live earlier this year.</p>
                 </div>
             </div>
+            <Foot></Foot>
         </div>
     )
 };

@@ -1,9 +1,12 @@
 import React from 'react';
 import '../ArticlePages/ArticlePage.css'
+import Foot from '../../../../Components/Footer/Foot'
+import Nav from '../../../../Components/NavBar/navbar'
 
 function Article1() {
     return (
         <div>
+            <Nav></Nav>
             <div className="hero1"></div>
             <div className="article-container">
                 <div>
@@ -41,6 +44,7 @@ function Article1() {
                     <p>This isn’t just a one-off or pilot. This software-centric computing system will be standard across Mercedes’ next generation of vehicles. And if Mercedes follows the same strategy as it did with its next-generation infotainment system called MBUX, that could mean that its A Class and not its flagship S Class vehicles will be among the first to get this.</p>
                 </div>
             </div>
+            <Foot></Foot>
         </div>
     )
 }

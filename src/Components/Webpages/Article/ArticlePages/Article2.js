@@ -1,8 +1,11 @@
 import React from 'react';
+import Foot from '../../../../Components/Footer/Foot'
+import Nav from '../../../../Components/NavBar/navbar'
 
 function Article2() {
     return (
         <div>
+             <Nav></Nav>
             <div className="hero2"></div>
             <div className="article-container">
                 <div>
@@ -45,6 +48,7 @@ function Article2() {
                     <p>“We’re excited about the opportunity that Amazon Honeycode creates for teams to build apps to drive and adapt to today’s ever-changing business landscape,” said Brad Armstrong, VP of Business and Corporate Development at Slack in today’s release. “We see Amazon Honeycode as a great complement and extension to Slack and are excited about the opportunity to work together to create ways for our joint customers to work more efficiently and to do more with their data than ever before.”</p>
                 </div>
             </div>
+            <Foot></Foot>
         </div>
     )
 }

@@ -1,8 +1,12 @@
 import React from 'react';
+import Foot from '../../../../Components/Footer/Foot'
+import Nav from '../../../../Components/NavBar/navbar'
+
 
 function Article4 () {
     return(
         <div>
+             <Nav></Nav>
             <div className="hero4"></div>
             <div className="article-container">
             <div>
@@ -47,6 +51,7 @@ function Article4 () {
                     <p>Instagram didn’t say when it plans to roll out Reels globally or when it expects to bring the product to the U.S., but says the further expansion will allow the company to continue to build on the existing experience and evolve the product.</p>
                 </div>
             </div>
+            <Foot></Foot>
         </div>
     )
 };

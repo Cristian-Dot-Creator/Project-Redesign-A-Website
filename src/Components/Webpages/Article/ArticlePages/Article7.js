@@ -1,8 +1,12 @@
 import React from 'react';
+import Foot from '../../../../Components/Footer/Foot'
+import Nav from '../../../../Components/NavBar/navbar'
+
 
 function Article7 () {
     return(
         <div>
+             <Nav></Nav>
             <div className="hero7"></div>
             <div className="article-container">
             <div>
@@ -39,6 +43,7 @@ function Article7 () {
                     <p>The founders put a happy face on the deal, as founders tend to do. “We’re thrilled to join Apple. Our shared values of putting the customer at the center of everything we do without sacrificing privacy and security, means we can truly meet our mission, delivering Fleetsmith to businesses and institutions of all sizes, around the world,” they wrote.</p>
                 </div>
             </div>
+            <Foot></Foot>
         </div>
     )
 };

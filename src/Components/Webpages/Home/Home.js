@@ -1,8 +1,8 @@
 import React from 'react';
 import './Home.css';
-import Cards from '../Cards';
-import NavBar from '../../NavBar/navbar';
-import Footer from '../../Footer/Footer';
+import Foot from "../../Footer/Foot";
+import NavBar from '../../../Components/NavBar/navbar';
+import Cards from './Cards';
 import Article1Link from '../Article/ArticleLinks/Article1Link';
 import Article2Link from '../Article/ArticleLinks/Article2Link';
 import Article3Link from '../Article/ArticleLinks/Article3Link';
@@ -14,7 +14,7 @@ import Article7Link from '../Article/ArticleLinks/Article7Link';
 function Home () {
     return(
         <div>
-            <NavBar / >
+           <NavBar></NavBar>
             <div className="container">
                 <div className="featured">
                     <div>
@@ -46,7 +46,10 @@ function Home () {
                         <h5>Kirsten Korosec</h5>
                     </div>
                 </div>
-                <Cards />
+              
+
+<Cards></Cards>
+
                 <div className="articles">
                     <div className="card">
                         <div className="image article1"></div>
@@ -147,9 +150,12 @@ function Home () {
                     </div>
                 </div>
             </div>
-            <Footer />
+            <Foot/>
         </div>
     )
 }
+
+
+
 
 export default Home;

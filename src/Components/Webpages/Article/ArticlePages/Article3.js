@@ -1,8 +1,12 @@
 import React from 'react';
+import Foot from '../../../../Components/Footer/Foot'
+import Nav from '../../../../Components/NavBar/navbar'
+
 
 function Article3() {
     return (
         <div>
+             <Nav></Nav>
             <div className="hero3"></div>
             <div className="article-container">
                 <div>
@@ -31,6 +35,7 @@ function Article3() {
                     <p>Speaking of Facebook, the new payment feature in its popular messaging app has been blocked in its second largest market. Brazil’s central bank said it was making the decision to “preserve an adequate competitive environment” in the mobile payments space and to ensure “functioning of a payment system that’s interchangeable, fast, secure, transparent, open and cheap.”</p>
                 </div>
             </div>
+            <Foot></Foot>
         </div>
     )
 };

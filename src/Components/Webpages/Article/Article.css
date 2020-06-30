@@ -1,0 +1,87 @@
+.button{
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.button:hover{
+    background-color: #ddd;
+}
+
+.btn.active{
+    background-color: #666;
+    color:white;
+}
+
+.cards {
+    width:350px;
+    height:375px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    transition: all ease-in .1s;
+    margin: 50px 15px 0 15px;
+    display:none;
+}
+
+.show{
+    display: block;
+}
+
+.cards > h1 {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    padding:0 10px;
+}
+
+.cards > h5 {
+    margin-bottom: 5px;
+    padding:0 10px;
+    color:rgb(122, 122, 122);
+    font-size: 11px;
+}
+
+.cards > h6 {
+    margin-bottom: 5px;
+    padding:0 10px; 
+    font-size: 11px;
+}
+
+.cards > p {
+    padding: 0 10px;
+    color:rgb(122, 122, 122);
+    font-size: 12.6px;
+}
+
+.cards:hover{
+    opacity: .5;
+    cursor: pointer;
+}
+
+.article13{
+    background-image: url('../../../imgs/article13.png');
+}
+
+.article14{
+    background-image: url('../../../imgs/article14.jpg');
+}
+
+ .article15{
+    background-image: url('../../../imgs/article15.jpg');
+}
+
+.article16{
+    background-image: url('../../../imgs/article16.png');
+}
+
+.article17{
+    background-image: url('../../../imgs/article17.jpg');
+}
+
+.article18{
+    background-image: url('../../../imgs/article18.jpg');
+} 

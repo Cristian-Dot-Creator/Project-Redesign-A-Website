@@ -1,8 +1,12 @@
 import React from 'react';
+import Foot from '../../../../Components/Footer/Foot'
+import Nav from '../../../../Components/NavBar/navbar'
+
 
 function Article6() {
     return (
         <div>
+             <Nav></Nav>
             <div className="hero6"></div>
             <div className="article-container">
                 <div>
@@ -33,6 +37,7 @@ function Article6() {
                     <p>According to the CEO, Slack Connect has been piloted for a few months, and is now available for paid plans. Slack shares are off 3.8% today, before the news came out. Its broader company cohort (SaaS) are also down today, along with the market more broadly; investors don’t appear to have reacted to this piece of news, at least yet.</p>
                 </div>
             </div>
+            <Foot></Foot>
         </div>
     )
 };
