@@ -1,0 +1,124 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+.wrapper{
+    width:80%;
+    margin: auto;
+    text-align: left;
+}
+.heading{
+    text-align: left;
+}
+.accordion{
+    margin-bottom: 60px;
+}
+.accordion-tab > .accordion-toggle{
+    position: absolute;
+    display: none;
+}
+.accordion-tab > label{
+    color:#fff;
+    background: #000046;
+    background-image: linear-gradient(to right, #168a5e 0%, #26db02 51%, #168a5e 100%);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    position: relative;
+    display: block;
+    padding: 13px 40px 13px 20px;
+    border-top: 1px solid #ddd;
+    cursor: pointer;
+    text-align: left;
+}
+.accordion-tab > .accordion-content{
+    max-height: 0;
+    transition: all .20s;
+    overflow: hidden;
+}
+.accordion-tab > label:after{
+    content: '\f078';
+    position: absolute;
+    top:13px;
+    right: 20px;
+    font-family: fontawesome;
+    transform: rotate(90deg);
+    transition: transform .30s;
+}
+.accordion-tab > .accordion-toggle:checked ~ label:after{
+    transform: rotate(0deg);
+}
+.accordion-tab > .accordion-toggle:checked ~ .accordion-content{
+    max-height: 100vh;
+    overflow: auto;
+}
+.accordion-tab > .accordion-content p{
+    margin: 15px 0;
+    padding: 0 20px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.labels{
+    display:block;
+    text-align: left;
+    font-size: 24px;
+}
+input{
+    width:100%;
+    height:40px;
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+#phone{
+    width: 500px;
+}
+#message{
+    height: 160px;
+    width:100%;
+    font-size: 24px;
+    resize: none;
+    margin-bottom: 40px;
+}
+#topic{
+    width:500px;
+    height:40px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+#submit{
+    width: 200px;
+    float: right;
+    height: 80px;
+    background-image: linear-gradient(to right, #168a5e 0%, #26db02 100%);
+    outline: none;
+    border: none;
+    font-weight: 600;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+#submit:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to left, #168a5e 0%, #26db02 100%);
+}
+h1{
+    margin-bottom: 24px;
+}
+.heading > p {
+    margin-bottom: 24px;
+}
+.fake-ad{
+    width:100%;
+    height: 160px;
+    border: 4px solid lightblue;
+    margin-top: 150px;
+    margin-bottom: 60px;
+}
+h2 {
+    margin-bottom: -10px;
+}

@@ -1,7 +1,10 @@
 import React, {Component} from "react";
 import {Link} from 'react-router-dom';
 import {navData} from "../../nav-data";
-import Cards from "../Webpages/Cards"
+import style from "../NavBar/nav.module.css"
+import './NavBar.css'
+
+// import Cards from "../Webpages/Cards"
 class NavBar extends Component {
       
     constructor( props ) {
@@ -21,18 +24,18 @@ class NavBar extends Component {
 
 		return(
             
-            <div id="nav-crunch_container">
-                <div id="menu-container">
-                    <img id="nav-logo" src={require('../../Images/TechCrunch.png')} alt="Tech Crunch Logo"/>
-                    <Link to='/'><h1 class=""><span class="text-primary">Tech Crunch</span></h1></Link>
-						<div className="menu-button" onClick={this.handleMenuButtonClick}>
+            <div id={style.nav_crunch_container}>
+                <div id={style.menu_container}>
+						<img id={style.nav_logo} src={require('../../Images/TechCrunch.png')} alt="Tech Crunch Logo"/>
+						<Link to='/'><h1 class="tech-crunch"><span className={style.text_primary}>Tech Crunch</span></h1></Link>
+						<div className={style.menu_button} onClick={this.handleMenuButtonClick}>
 							<i className="fa fa-bars"/>
 						</div>
-					<div id="nav-tablet">
-						<ul id="nav-tablet_bar">
-							<Link to='/article'><li className="nav-tablet_item"><span class="text-primary">Article</span></li></Link>
-							<Link to='/extracrunch'><li className="nav-tablet_item"><span class="text-primary">Extra Crunch</span></li></Link>
-							<Link to='/contact'><li className="nav-tablet_item"><span class="text-primary">Contact Us</span></li></Link>
+					<div id={style.nav_tablet}>
+						<ul id={style.nav_tablet_bar}>
+							<Link to='/article'><li className={style.nav_tablet_item}><span className={style.text_primary}>Article</span></li></Link>
+							<Link to='/extracrunch'><li className={style.nav_tablet_item}><span className={style.text_primary}>Extra Crunch</span></li></Link>
+							<Link to='/contact'><li className={style.nav_tablet_item}><span className={style.text_primary}>Contact Us</span></li></Link>
 						</ul>
 					</div>
                 </div>
@@ -41,14 +44,14 @@ class NavBar extends Component {
 					<nav className={`nav ${isSidebarOpen ? 'show' : ''}`}>
 						<div
 							onClick={this.handleMenuButtonClick}
-							className="close"
+							className={style.close}
 						>
 							<i className="fa fa-times"/>
 						</div>
-						<ul className="menu-list">
+						<ul className={style.menu_list}>
 							{navData.map( item => (
-								<li className="menu-items" key={item.name}>
-									<a className="menu-link" href={item.link}>{item.name}</a>
+								<li className={style.menu_items} key={item.name}>
+									<a className={style.menu_link} href={item.link}>{item.name}</a>
 								</li>
 							) )}
 						</ul>

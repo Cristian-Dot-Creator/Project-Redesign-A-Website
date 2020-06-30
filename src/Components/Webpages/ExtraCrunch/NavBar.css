@@ -1,8 +1,6 @@
+
 body {
     overflow-x: hidden;
-}
-.tech-crunch {
-    margin-bottom: 0px;
 }
 .close {
 	display: flex;
@@ -33,6 +31,7 @@ body {
   .menu-list::-webkit-scrollbar {
     display: none;
   }
+  
 .menu-items {
     padding: 0;
     display: flex;
