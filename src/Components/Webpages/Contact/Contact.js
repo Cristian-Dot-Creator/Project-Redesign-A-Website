@@ -6,7 +6,7 @@ function Contact () {
         <div className="wrapper">
             <div className="heading">
                 <h1>FREQUENTLY ASKED QUESTIONS</h1>
-                <p>lsdsdlsdlsldsldls lsdlsldlsdl lsdllsdlsdlsld llsdlsldlsdl sldlls dlsldlsdlsl lsdlsldlsl lsldls ldsldsdsldlsdlsdl lsldl sldsldsdlsdlsdl lsldlsdlsdsdlsldlsdl lsdlsdlsdl lsdlsldlsdldlsldll sldlsldsldlsdlsldlsdlslsdsdlsdlsldsldls lsdlsldlsdl lsdllsdlsdlsld llsdlsldlsdl sldlls dlsldlsdlsl lsdlsldlsl lsldls ldsldsdsldlsdlsdl lsldl sldsldsdlsdlsdl lsldlsdlsdsdlsldlsdl lsdlsdlsdl lsdlsldlsdldlsldll sldlsldsldlsdlsldlsdls</p>
+                <p>We are here for you! We know that there is a lot of information on our website, and we want to be able to help give you a custom experience that streamlines the information you need. Listed below are some of the most common questions we get asked ranging from our Extra Crunch Membership to upcoming events! If you cannot find an answer on this list, please use the contact form down below to ask us your question, and someone will respond to you within 48 hours.</p>
             </div>
             <div className="accordion">
                 <div className="accordion-tab">
@@ -125,23 +125,27 @@ function Contact () {
             <div className="fake-ad">ADVERTISEMENT</div>
             <h2>SUGGESTED ARTICLES</h2>
             <div className="articles">
-                    <div className="card">
-                        <div className="image article1"></div>
-                        <h1>ARTICLE TITLE GOES HERE</h1>
-                        <h5>AUTHOR AND DATE GO HERE</h5>
-                        <p>This is a sample article description that you can pull directly from the website and paste into this p tag. This is a sample article description that you can pull directly from the website and paste into this p tag.</p>
+            <div className="card events">
+                        <div className="image"></div>
+                        <h1>New Enterprise Associates goes to Hollywood and launches a venture firm with CAA</h1>
+                        <h5>Jonathan Shieber</h5>
+                        <h6>8:46 am EDT•June 25, 2020</h6>
+                        <p>New Enterprise Associates has launched a new investment initiative with the Hollywood talent agency Creative Artists Agency.
+                        The new partnership, called Connect Ventures, said it will identify and accelerate the growth of early-stage, consumer-focused businesses formed in the wake of the global pandemic.</p>
                     </div>
                     <div className="card">
-                        <div className="image article1"></div>
-                        <h1>ARTICLE TITLE GOES HERE</h1>
-                        <h5>AUTHOR AND DATE GO HERE</h5>
-                        <p>This is a sample article description that you can pull directly from the website and paste into this p tag. This is a sample article description that you can pull directly from the website and paste into this p tag.</p>
+                        <div className="image article10"></div>
+                        <h1>Mophie is selling an $80 wireless-charging UV phone sanitizer</h1>
+                        <h5>Brian Heater</h5>
+                        <h6>1:15 pm EDT•June 25, 2020</h6>
+                        <p>The best possible time to launch a UV phone sanitizer would have been about five months ago. The second best possible time, however, is right now. When the COVID-19 pandemic really started hitting the global community in earnest, there was a run on these once fairly niche products from companies with names like PhoneSoap.</p>
                     </div>
                     <div className="card">
-                        <div className="image article1"></div>
-                        <h1>ARTICLE TITLE GOES HERE</h1>
-                        <h5>AUTHOR AND DATE GO HERE</h5>
-                        <p>This is a sample article description that you can pull directly from the website and paste into this p tag. This is a sample article description that you can pull directly from the website and paste into this p tag.</p>
+                        <div className="image article11"></div>
+                        <h1>Waymo, Volvo partner to develop electric robotaxis</h1>
+                        <h5>Kirsten Korosec</h5>
+                        <h6>4:00 pm EDT•June 25, 2020</h6>
+                        <p>Waymo's  self-driving software footprint is expanding — this time in a partnership with Volvo Car Group. The two companies announced Thursday an "exclusive" partnership to integrate Waymo's self-driving software into a new electric vehicle designed for ride-hailing.</p>
                     </div>
                 </div>
         </div>
