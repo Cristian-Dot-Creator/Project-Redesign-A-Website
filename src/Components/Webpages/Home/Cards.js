@@ -1,25 +1,7 @@
-import React, { Component } from "react";
-import { Link } from 'react-router-dom';
+import React from "react";
 import '../../../index.scss';
 
-const buttons = [
-    {
-        name: "All",
-        type: "All"
-    },
-    {
-        name: "Tech",
-        type: "Tech"
-    },
-    {
-        name: "Politics",
-        type: "Politics"
-    },
-    {
-        name: "Sports",
-        type: "Sports"
-    }
-  ];
+
   class Cards extends React.Component {
     constructor() {
       super();

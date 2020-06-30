@@ -27,7 +27,7 @@ class Article extends Component {
           const x = document.getElementsByClassName('cards');
           const y = Array.from(x)
           console.log(y)
-          if (c == "all") c = "";
+          if (c === "all") c = "";
           for (i = 0; i < y.length; i++) {
             removeClass(y[i], "show");
             if (y[i].className.indexOf(c) > -1) addClass(y[i], "show");
@@ -40,7 +40,7 @@ class Article extends Component {
           arr1 = element.className.split(" ");
           arr2 = name.split(" ");
           for (i = 0; i < arr2.length; i++) {
-            if (arr1.indexOf(arr2[i]) == -1) {
+            if (arr1.indexOf(arr2[i]) === -1) {
               element.className += " " + arr2[i];
             }
           }
