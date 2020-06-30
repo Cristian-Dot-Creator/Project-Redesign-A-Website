@@ -1,0 +1,122 @@
+
+
+.Top__Container {
+    width: 100%;
+    background-color: white;
+    height: 500px;
+    padding: 10px;
+    
+}
+
+
+.main__Headline {
+    display: flex;
+    margin-left: 50px;
+    background-color: white;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    
+    
+    
+}
+
+.main__h1 {
+    align-items: column;
+}
+
+
+.main__h2{
+align-items: flex-start;
+margin-top: 50px;
+}
+
+.monthlyMembership {
+    margin-bottom: 40px;
+}
+
+
+.monthCard {
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: space-evenly;
+     align-items: center;
+     align-content:center;
+
+}
+
+.month_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+}
+
+.month_item:nth-child(2) {
+    height: 500px;
+}
+
+
+
+
+
+.cards {
+    display: flex;
+  flex-direction: row;
+  justify-content:center;
+  height: 300px;
+  padding: 10px;
+    
+}
+
+.card__item {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+
+
+.bottom {
+    margin-top: 990px;
+    background-color: lightgrey;
+    height: 500px;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+.submit {
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+
+@media only screen and (max-width: 980px) {
+
+
+    .bottom {
+        margin-top: 990px;
+        background-color: lightgrey;
+        height: 500px;
+        overflow: hidden;
+        width: 100%;
+    }
+    
+
+}
+
+@media only screen and (min-width: 375px) {
+    .card__item h1 {
+       font-size: 20px;
+    }
+}

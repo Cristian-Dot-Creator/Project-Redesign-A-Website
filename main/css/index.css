@@ -1,0 +1,140 @@
+.card-section {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 375px;
+}
+
+.article-card_container {
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 350px;
+  max-height: 880px;
+  border: solid #ececec 1px;
+  padding: 10px;
+  position: relative;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.card-info {
+  margin-left: 10px;
+}
+
+.title-span {
+  color: #00d301;
+}
+
+.card-button_container {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+}
+
+.card-line {
+  height: 2px;
+  width: 20%;
+  background-color: lime;
+  margin-bottom: 20px;
+}
+
+.button-style {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 40px;
+  max-height: 40px;
+  text-align: center;
+}
+
+.article-card_more {
+  border: none;
+  background: linear-gradient(286deg, #00d301, #36c275 50%, #00a562);
+  color: white;
+  margin-bottom: 10px;
+}
+
+.article-card_more:hover {
+  -webkit-animation: more forwards 1s;
+          animation: more forwards 1s;
+}
+
+@-webkit-keyframes more {
+  10% {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  30% {
+    -webkit-box-shadow: black 3px 4px 10px;
+            box-shadow: black 3px 4px 10px;
+  }
+  100% {
+    -webkit-box-shadow: black 3px 4px 10px;
+            box-shadow: black 3px 4px 10px;
+  }
+}
+
+@keyframes more {
+  10% {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  30% {
+    -webkit-box-shadow: black 3px 4px 10px;
+            box-shadow: black 3px 4px 10px;
+  }
+  100% {
+    -webkit-box-shadow: black 3px 4px 10px;
+            box-shadow: black 3px 4px 10px;
+  }
+}
+
+.article-card_sponsor {
+  border: solid 2px black;
+}
+
+.article-card_sponsor:hover {
+  -webkit-animation: forwards sponsor 1s;
+          animation: forwards sponsor 1s;
+}
+
+@-webkit-keyframes sponsor {
+  10% {
+    color: black;
+    background-color: black;
+  }
+  30% {
+    color: white;
+    background-color: black;
+  }
+  100% {
+    color: white;
+    background-color: black;
+  }
+}
+
+@keyframes sponsor {
+  10% {
+    color: black;
+    background-color: black;
+  }
+  30% {
+    color: white;
+    background-color: black;
+  }
+  100% {
+    color: white;
+    background-color: black;
+  }
+}
+
+@media only screen and (min-width: 765px) {
+  .card-section {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=index.css.map */
