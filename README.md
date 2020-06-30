@@ -1,4 +1,4 @@
-# Tech Crunch Redesign Group 5 \(^_^)/  (ゝ‿ മ)
+# Tech Crunch Redesign Group 5
 
 
 # Getting Started
