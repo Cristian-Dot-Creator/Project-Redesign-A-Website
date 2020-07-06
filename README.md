@@ -1,5 +1,5 @@
 # Tech Crunch Redesign Group 5
-
+* https://crunchtech.netlify.app
 
 # Getting Started
 Clone or download this repo onto your local machine. Once you have done this, drag and drop the folder into Vscode. Once Vscode opens you will want to go to your terminal in your Vscode and make sure you are in right directory then install the node packages. You can do this by running npm install.
