@@ -5,9 +5,9 @@ import Foot from '../../Footer/Foot'
 
 function Contact () {
     return(
+        <div>
+            <NavBar />
             <div className="wrapper">
-                            <NavBar></NavBar>        
-
             <div className="heading">
                 <h1>FREQUENTLY ASKED QUESTIONS</h1>
                 <p>We are here for you! We know that there is a lot of information on our website, and we want to be able to help give you a custom experience that streamlines the information you need. Listed below are some of the most common questions we get asked ranging from our Extra Crunch Membership to upcoming events! If you cannot find an answer on this list, please use the contact form down below to ask us your question, and someone will respond to you within 48 hours.</p>
@@ -153,6 +153,7 @@ function Contact () {
                     </div>
                 </div>
                 <Foot></Foot>
+</div>
 </div>
     )
 }

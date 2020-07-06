@@ -33,7 +33,7 @@ class NavBar extends Component {
 						</div>
 					<div id={style.nav_tablet}>
 						<ul id={style.nav_tablet_bar}>
-							<Link to='/article'><li className={style.nav_tablet_item}><span className={style.text_primary}>Article</span></li></Link>
+							<Link to='/allarticles'><li className={style.nav_tablet_item}><span className={style.text_primary}>All Articles</span></li></Link>
 							<Link to='/extracrunch'><li className={style.nav_tablet_item}><span className={style.text_primary}>Extra Crunch</span></li></Link>
 							<Link to='/contact'><li className={style.nav_tablet_item}><span className={style.text_primary}>Contact Us</span></li></Link>
 						</ul>
